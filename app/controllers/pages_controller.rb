@@ -5,7 +5,7 @@ class PagesController < ApplicationController
     def about
 		end
 		
-		def checkout
+		def privacy
 		end
 		
 end
