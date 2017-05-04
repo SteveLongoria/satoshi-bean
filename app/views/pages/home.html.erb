@@ -46,10 +46,10 @@
 
 <div class="container">
 	<h2 class="text-center">Satisfaction Guaranteed Or Your Bitcoin Back</h2>
-	<p class="text-justify">At Satoshi Bean we stand by our product and believe it’ll be some 
-	of the best coffee beans you’ll ever have. We are so sure of this that we’ve decided to 
-	offer a no questions asked, money back guarantee. If you are absolutely thrilled with our 
-	fresh roasted coffee beans simply send them back and we’ll issue a full refund, no 
+	<p class="text-justify">At Satoshi Bean we stand by our product and believe our beans 
+	will be some of the best you've ever had. We are so sure of this that we’ve decided to 
+	offer a no questions asked, money back guarantee. If you aren't absolutely thrilled with 
+	our fresh roasted coffee beans simply send them back and we’ll issue a full refund, no 
 	questions asked!</p>
 </div>
 <div class="container">
@@ -62,5 +62,7 @@
 					open our store in the OpenBazaar client.</p>
 					<p class="text-center">Don't have OpenBazaar yet? Click below 
 					to download and install it.</p>
-					<%= image_tag("openbazaarlogo.jpg", :alt => "Download OpenBazaar", :class => 'img-responsive') %>
+					<%= link_to "http://openbazaar.org" do %>
+						<%= image_tag("openbazaarlogo.jpg", :alt => "Download OpenBazaar", :class => 'img-responsive') %>
+					<% end %>
 </div>
