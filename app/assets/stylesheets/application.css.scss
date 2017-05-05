@@ -80,9 +80,25 @@ p {
   color: white;
   margin-top: -20px;
   padding-top: 50px;
-  padding-bottom: 100px;
+  padding-bottom: 40px;
+}
+
+.bean-bag {
 }
 
 .img-responsive {
     margin: auto;
+}
+
+.btn-primary-outline {
+	width: 400px;
+	height: 48px;
+  background-color: #89253e;
+  border-color: #ccc;
+  margin-bottom: 30px;
+  &:hover, &:focus {
+    background-color: #89253e;
+    color: white;
+    border-color: #ccc;
+    }
 }

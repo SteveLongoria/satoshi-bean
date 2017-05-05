@@ -1,11 +1,19 @@
 <div class="home-callout text-center container-fluid">
-	<h1>Fresh Roasted Coffee Beans Made To Order</h1>
-	<h3>15% of each sale is donated to various open source projects</h3>
+	<div class="row">
+		<div class="col-md-8">
+			<h1>Fresh Roasted Coffee Beans Made To Order</h1>
+			<h3>15% of each sale is donated to various open source projects</h3>
+			<a href="#info" class="btn btn-primary btn-primary-outline btn-lg page-scroll">Learn More</a>
+		</div><!-- /.col-md-7 -->
+		<div class="col-md-4">
+			<%= image_tag("bagbeans.png", :alt => "Bag Of Beans", :class => 'img-responsive bean-bag') %>
+		</div><!-- /.col-md-5 -->
+	</div><!-- /.row -->
 </div>
 <div class="container">
 	<h2 class="text-center" style="margin-bottom: 20px;">Coffee Has Never Tasted This Good</h2>
 </div>
-<div class="container">
+<div class="container" id="info">
 	<div class="row">
 		<div class="col-md-4">
 			<p class="text-center"><b>Fresh Roasted Coffee Beans</b></p>
