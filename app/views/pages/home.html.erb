@@ -65,15 +65,19 @@
 </div>
 <div class="container">
 	<div class="well">
-		<h2 class="text-center">Try A 1lbs Bag Of Colombia Tolima Today</h2>
+		<div class="row">
+		<div class="col-md-4"><%= image_tag("bagbeans.png", :alt => "Bag Of Beans", :class => 'img-responsive bean-bag') %>
+		</div>
+		<div class="col-md-8">
+		<h2 class="text-center">Buy A Bag Of Colombia Tolima Today</h2>
+		<p class="text-justify"><i>Note: Our shop resides exclusively on OpenBazaar. Don't have OpenBazaar yet? Click below 
+					to download and install it.</i></p>
+					<%= link_to "http://openbazaar.org", target: "_blank" do %>
+						<%= image_tag("openbazaarlogo.jpg", :alt => "Download OpenBazaar", :class => 'img-responsive open-bazaar-img') %>
+					<% end %>
 			<p class="text-center"><i>*FREE Shipping within US & 15% of sale is donated to OpenBazaar. Most orders ship within 48 hours but can sometimes take up to 4 days.</i></p>
 					<a href="ob://654c7e9efacaffa3c0a3ba9bae0b5484fd33322d/store" class="btn btn-primary btn-block btn-lg">Buy A Bag For $25</a>
+					</div><!-- /.col-md-6 -->
 	</div>
-	<p class="text-center">Our shop resides exclusively on OpenBazaar. Clicking on the button above will 
-					open our store in the OpenBazaar client.</p>
-					<p class="text-center">Don't have OpenBazaar yet? Click below 
-					to download and install it.</p>
-					<%= link_to "http://openbazaar.org" do %>
-						<%= image_tag("openbazaarlogo.jpg", :alt => "Download OpenBazaar", :class => 'img-responsive') %>
-					<% end %>
+	</div><!-- /.row -->
 </div>
